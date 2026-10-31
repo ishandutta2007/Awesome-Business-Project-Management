@@ -90,7 +90,7 @@ The sector is **moderately fragmented** rather than winner-take-all:
 
 ## 💻 Open-Source & Self-Hosted Alternatives
 
-*Self-hosted open-source GitHub projects sorted in descending order by GitHub Stars_Count.*
+*Self-hosted open-source GitHub projects sorted in descending order by GitHub_Stars_Count.*
 
 | Project 📦 | License 📜 | Tech Stack ⚙️ | Highlights & Capabilities 🌟 |
 | :--- | :--- | :--- | :--- |
