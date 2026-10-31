@@ -50,6 +50,7 @@
     </pattern>
 
     <style>
+      <![CDATA[
       .title-text {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 800;
@@ -81,7 +82,7 @@
         fill: #64748b;
       }
 
-      /* Dynamic Animations (ambient & subtle in background) */
+      /* Dynamic Animations (ambient and subtle in background) */
       @keyframes floatOrb1 {
         0%, 100% { transform: translate(0px, 0px) scale(1); }
         50% { transform: translate(40px, -30px) scale(1.15); }
@@ -94,10 +95,6 @@
         0%, 100% { opacity: 0.85; stroke-dashoffset: 0; }
         50% { opacity: 1; stroke-dashoffset: -20; }
       }
-      @keyframes progressFlow {
-        0% { stroke-dashoffset: 120; }
-        100% { stroke-dashoffset: 0; }
-      }
       @keyframes boardBob {
         0%, 100% { transform: translateY(0); }
         50% { transform: translateY(-6px); }
@@ -107,6 +104,7 @@
       .orb-2 { animation: floatOrb2 12s ease-in-out infinite; }
       .pulse-line { animation: pulseGantt 4s ease-in-out infinite; }
       .bob-card { animation: boardBob 6s ease-in-out infinite; }
+      ]]>
     </style>
   </defs>
 
@@ -189,13 +187,13 @@
 
     <!-- Feature Attribute Pills (Centered Foreground) -->
     <g transform="translate(325, 222)">
-      <!-- Pill 1: Agile & Scrum -->
+      <!-- Pill 1: Agile and Scrum -->
       <g transform="translate(0, 0)">
         <rect width="165" height="36" rx="18" fill="url(#pillGrad1)" />
         <text x="82" y="23" text-anchor="middle" class="pill-text">🚀 Agile &amp; Scrum</text>
       </g>
 
-      <!-- Pill 2: Gantt & Roadmaps -->
+      <!-- Pill 2: Gantt and Roadmaps -->
       <g transform="translate(180, 0)">
         <rect width="185" height="36" rx="18" fill="url(#pillGrad2)" />
         <text x="92" y="23" text-anchor="middle" class="pill-text">📊 Gantt &amp; Portfolios</text>
